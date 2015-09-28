@@ -1,0 +1,19 @@
+
+CoreCoreBundle_homepage:
+  pattern: /
+  defaults: { _controller: CoreCoreBundle:Page:index }
+  requirements:
+      _method: GET
+
+CoreCoreBundle_contact:
+  pattern: /
+  defaults: { _controller: CoreCoreBundle:Page:contact }
+  requirements:
+      _method: POST
+
+CoreCoreBundle_event:
+  pattern: /event
+  defaults: { _controller: CoreCoreBundle:Page:event }
+  requirements:
+      _method: GET
+

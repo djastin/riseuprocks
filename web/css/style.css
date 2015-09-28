@@ -1,0 +1,576 @@
+
+@font-face
+{
+    font-family: 'fontLogo';
+    src: url('../fonts/CF_PunkRockShow.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-Light.ttf') format('truetype')
+}
+
+@font-face
+{
+    font-family: 'DosisBold';
+    src: url('../fonts/Dosis-Bold.ttf') format('truetype')
+}
+
+@font-face
+{
+    font-family: 'DosisLight';
+    src: url('../fonts/Dosis-ExtraLight.ttf') format('truetype')
+}
+
+@font-face
+{
+    font-family: 'Sans Serif';
+    src: url('../fonts/Aaargh.ttf') format('truetype')
+}
+
+body
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+#background
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    background: url('../images/backgrounds/bg1.png');
+    background-repeat: no-repeat;
+    opacity: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+nav.navbar
+{
+
+}
+
+#content-wrapper
+{
+    padding-top: 50px;
+}
+
+form, input, textarea
+{
+    width: 100%;
+}
+
+form, textarea
+{
+    position: relative;
+
+}
+
+.fb-like
+{
+    float: right;
+}
+
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+
+/*=============================
+             CONTENT
+ =============================*/
+
+a
+{
+    font-family: 'Dosis';
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#content
+{
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.notification-wrapper
+{
+    position: relative;
+    width: 100%;
+    /*min-height: 450px;*/
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#event-wrapper .description-text
+{
+    font-family: DosisBold;
+    font-size: 38pt;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    padding-top: 0%;
+}
+
+.description-text .text-center
+{
+    font-family: 'Sans Serif';
+    font-size: 70px;
+    color: white;
+    height: 100%;
+}
+
+p.title
+{
+    font-family: "DosisBold";
+    font-size: 34pt;
+    color: white;
+}
+
+#countdown-container
+{
+    font-family: Dosis;
+    font-size: 18pt;
+}
+
+.logo-wrapper
+{
+    min-height: 200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+.logo-container
+{
+    font-family: 'fontLogo';
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+img.img-scale-small
+{
+    position: relative;
+    width: 50px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+img.img-scale-small:hover
+{
+
+}
+
+img
+{
+    -webkit-filter: contrast(1.7);
+    filter: contrast(1.7);
+}
+
+.fb-like
+{
+    margin-top: 20px;s
+}
+
+/*=============================
+          STATIC IMAGES
+ =============================*/
+
+#img-static1
+{
+    position: relative;
+    background: url('../images/band/4.JPG');
+    background-size: 100% auto;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150%;
+    -webkit-filter: contrast(1.7);
+    filter: contrast(1.7);
+}
+
+#img-static2
+{
+    position: relative;
+    background: url('../images/band/3.JPG');
+    background-size: 100% auto;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150%;
+    -webkit-filter: contrast(1.7);
+    filter: contrast(1.7);
+}
+
+#img-static3
+{
+    position: relative;
+    background: url('../images/band/1.JPG');
+    background-size: 100% auto;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150%;
+    -webkit-filter: contrast(1.7);
+    filter: contrast(1.7);
+}
+
+#img-static4
+{
+    position: relative;
+    background: url('../images/band/5.JPG');
+    background-size: 100% auto;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150%;
+    -webkit-filter: contrast(1.7);
+    filter: contrast(1.7);
+}
+
+#img-static5
+{
+    position: relative;
+    background: url('../images/band/2.JPG');
+    background-size: 100% auto;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150%;
+    -webkit-filter: contrast(1.7);
+    filter: contrast(1.7);
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.gallery
+{
+    display: table;
+}
+
+ul, li
+{
+    display: inline-block;
+}
+
+li
+{
+    display: inline;
+}
+
+@media (max-width:997px)
+{
+    .description-text .text-center
+    {
+        font-size: 45px;
+    }
+
+
+}
+
+@media (max-width: 768px)
+{
+    #header
+    {
+        height: 230px;
+    }
+
+    #main-menu ul li
+    {
+        font-size: 15pt;
+    }
+
+}
+
+@media (max-width:680px)
+{
+    #countdown-container
+    {
+        font-size: 15px;
+    }
+
+    #countdown-label
+    {
+        font-size: 30px;
+    }
+
+    .logo-container
+    {
+        font-size: 75px;
+    }
+
+    .description-text .text-center, p.title
+    {
+        font-size: 20px;
+    }
+
+    #contact-wrapper
+    {
+        min-width: 100%;
+    }
+
+    form, textarea
+    {
+    }
+
+    #band-menuItem, #band-wrapper
+    {
+        display: none;
+    }
+
+    #event-wrapper .description-text
+    {
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .logo-container
+    {
+        font-size: 45px;
+    }
+
+    div.logo-wrapper
+    {
+        margin-top: -45px;
+    }
+
+
+    .description-text .text-center, p.title
+    {
+        font-size: 15px;
+    }
+
+    #content
+    {
+        height: 300px;
+    }
+}
+
+@media (max-width: 120px)
+{
+    .logo-container
+    {
+        font-size: 35px;
+    }
+
+    .description-text .text-center
+    {
+        font-size: 10px;
+    }
+
+    #event-wrapper .description-text
+    {
+        margin-top: 90%;
+    }
+}
+
+@media (max-width: @iphone-screen)
+{
+    background-attachment: scroll;
+}
+
+#contact-wrapper, #vision-wrapper
+{
+    background: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.picture-wrapper
+{
+    background: black;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#event-wrapper, #contact-wrapper, #vision-wrapper
+{
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position; relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#band-wrapper
+{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+
+}
+
+#vision-wrapper
+{
+    height: auto;
+}
+
+#contact-wrapper
+{
+    width: 50%;
+}
+
+#countdown-wrapper
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.text-content
+{
+    color: white;
+    font-family: Arial;
+}
+
+div.pic-frame
+{
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    height: 300px;
+}
+
+.picture-wrapper
+{
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.img-rotate
+{
+    height: auto;
+    width: 100px;
+}
+
+.red
+{
+    background: red;
+    opacity: 1;
+}
+
+.picture-container
+{
+    /*height: 335px !important;*/
+
+}
+
+/*#photos .overlay:hover
+{
+    opacity: 0.5;
+}
+
+
+#photos {
+    /* Prevent vertical gaps */
+   /* line-height: 0;
+
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;
+}
+
+#photos .picture-container img {
+    /* Just in case there are inline attributes */
+    /*width: 100% !important;
+    height: auto !important;
+    opacity: 1;
+}
+*/
+
+#photos
+{
+    background: url("../images/band/riseup_group.jpg");
+}
+
+/*=============================
+             FOOTER
+ =============================*/
+/*#footer {
+    background: black;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    /*color: #FFF;
+    padding: 30px 0;
+    line-height: 16px;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}*/
+
+footer
+{
+    background: black;
+    color: #FFF;
+    padding: 30px 0;
+    line-height: 16px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+#footer nav a
+{
+    color: #FFF;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+@media (max-width:997px)
+{
+    #footer .col-md-4
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+#footer nav a
+{
+    color: #FFF;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+@media (max-width:997px)
+{
+    #footer .col-md-4
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
