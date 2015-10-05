@@ -38,4 +38,4 @@ function countdown(yr,m,d){
     setTimeout("countdown(theyear,themonth,theday)",1000)
 }
 //enter the count down date using the format year/month/day
-countdown(2015,10,01)
+countdown(2015,11,21)

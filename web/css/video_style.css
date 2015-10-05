@@ -1,0 +1,149 @@
+@font-face
+{
+    font-family: 'fontLogo';
+    src: url('../fonts/CF_PunkRockShow.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-Light.ttf') format('truetype')
+}
+
+@font-face
+{
+    font-family: 'DosisBold';
+    src: url('../fonts/Dosis-Bold.ttf') format('truetype')
+}
+
+@font-face
+{
+    font-family: 'DosisLight';
+    src: url('../fonts/Dosis-ExtraLight.ttf') format('truetype')
+}
+
+@font-face
+{
+    font-family: 'Sans Serif';
+    src: url('../fonts/Aaargh.ttf') format('truetype')
+}
+
+.main-menu
+{
+    width: 100%;
+    height: 40px;
+}
+
+.main-menu .navigation
+{
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li
+{
+    text-decoration: none;
+    display: inline;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-family: DosisLight;
+    font-size: 20px;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: white;
+}
+
+video#bgvid
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 101%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.logo-wrapper
+{
+    min-height: 200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+.logo-container
+{
+    font-family: 'fontLogo';
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
+.description-text .text-center
+{
+    font-family: 'Sans Serif';
+    font-size: 70px;
+    color: white;
+    height: 100%;
+}
+
+#event-wrapper .description-text
+{
+    font-family: DosisBold;
+    font-size: 38pt;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    padding-top: 0%;
+}
+
+.description-text
+{
+    margin-top: 10px;
+}
+
+.fb-like
+{
+    margin-top: 20px;
+    float: right;
+}
+
+#countdown-container
+{
+    font-family: Dosis;
+    font-size: 18pt;
+    text-align: center;
+}
+
+div.textContent { display:none }

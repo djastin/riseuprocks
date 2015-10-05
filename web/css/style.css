@@ -511,7 +511,24 @@ div.pic-frame
 
 #photos
 {
+    position: relative;
     background: url("../images/band/riseup_group.jpg");
+    background-size: 100% auto;
+    background-size: length;
+    -moz-background-size: cover;
+    background-position: center;
+    padding-top: 50%;
+
+}
+
+img-static1
+{
+    position: relative;
+    background: url('../images/band/4.JPG');
+    background-size: 100% auto;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150%;
 }
 
 /*=============================

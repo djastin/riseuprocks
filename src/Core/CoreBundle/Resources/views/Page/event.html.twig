@@ -1,14 +1,105 @@
 {% extends 'CoreCoreBundle::layout.html.twig' %}
 
+{% block stylesheets %}
+    <link href="{{ asset('css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" />
+    <link href="{{ asset('css/customized_navbar.css') }}" type="text/css" rel="stylesheet" />
+    <link href="{{ asset('css/video_style.css') }}" type="text/css" rel="stylesheet" />
+{% endblock %}
+
+{% block navbar %} {% endblock %}
+
 {% block body %}
 
+    <video autoplay loop poster="/video/ocean.jpg" id="bgvid">
+        <!--<source src="/video/ocean.webm" type="video/webm">-->
+        <source src="/video/riseup_video_intro.mp4" type="video/mp4">
+    </video>
 
     <div id="content-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
+                    <div class="logo-wrapper">
+                        <div class="logo-container">
+                            Rise Up On the Rock
+                        </div>
 
-                    <div id="event-wrapper">
+                        <div id="event-wrapper">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-12">
+
+                                        <div class="description-text" id="countdown-wrapper">
+
+                                            <div id="countdown-container">
+                                                ONLY 121 DAYS, 7 HOURS, 11 MINUTES, AND 53 SECONDS LEFT
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="description-text">
+                            <div class="text-center">empowering generations<br /> to win generations</div>
+                        </div>
+
+                        <div class="fb-like" data-href="https://www.facebook.com/Rise-Up-105880839746221" data-layout="button"
+                             data-action="like" data-show-faces="true" data-share="true"></div>
+
+
+
+                        <div class="textContent">
+
+                        </div>
+                        <!--<div class="textContent">
+
+                            <div id="event-wrapper">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+
+                                            <div class="description-text" id="countdown-wrapper">
+
+                                                <div id="countdown-container">
+                                                    ONLY 121 DAYS, 7 HOURS, 11 MINUTES, AND 53 SECONDS LEFT
+                                                </div>
+
+                                                <div id="countdown-label">AWAKENING 2015</div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>-->
+
+
+
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.3";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+                    </div>
+
+
+
+
+                    <!--<div id="event-wrapper">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -27,7 +118,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div>-->
 
 
                 </div>
@@ -35,9 +126,6 @@
         </div>
     </div>
 
-    {% block footer %}
-
-    {% endblock %}
 
 
 
