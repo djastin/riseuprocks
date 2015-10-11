@@ -146,4 +146,100 @@ video#bgvid
     text-align: center;
 }
 
-div.textContent { display:none }
+div.textContent
+{
+    display:none;
+}
+
+.footer-image
+{
+    position: relative;
+    width: 20%;
+    background: url("../images/logo-zuidpoort.png");
+    background-size: 100% auto;
+    background-size: length;
+    -moz-background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-wrapper
+{
+    padding-bottom: 70%;
+}
+
+@media only screen and (max-width: 980px)
+{
+    .logo-container
+    {
+        font-size: 85px;
+        color: black;
+    }
+
+    .description-text .text-center
+    {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 780px)
+{
+    .logo-container
+    {
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 620px)
+{
+    .logo-container
+    {
+        font-size: 45px;
+        color: yellow;
+    }
+
+    #countdown-container
+    {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 420px)
+{
+    .logo-container
+    {
+        font-size: 40px;
+        color:green;
+    }
+}
+
+@media only screen and (max-width: 360px)
+{
+    .logo-container
+    {
+        font-size: 30px;
+        color: orange;
+    }
+
+    .description-text .text-center
+    {
+        font-size: 16px;
+    }
+
+    #countdown-container
+    {
+        font-size: 10px;
+    }
+}
+
+footer
+{
+}
+
+content
+{
+}
